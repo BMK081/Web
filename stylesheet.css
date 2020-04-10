@@ -31,13 +31,14 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: rgb(138, 31, 31);
+    background-color: rgb(110, 3, 3);
+    border-radius: 5px;
   }
 
   h1{
     text-shadow: 2px 2px black;
     margin-top: 150px;
-    color:rgb(138, 31, 31);
+    color:rgb(143, 1, 1);
     font-size: 100px;
     text-align: center;
   }
