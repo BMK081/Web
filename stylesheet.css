@@ -32,7 +32,6 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: rgb(138, 31, 31);
-    border-radius: 50%;
   }
 
   h1{
