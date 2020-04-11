@@ -11,18 +11,18 @@ position:fixed;
 top: 0px;
 left: 0px;
 width: 100%;
-background-color:black;
+background-color: rgb(66, 66, 66);
 }
 
 nav li{
-    font-size: x-large;
+    font-size: 26px;
     font:  'EB Garamond', serif;
     display: inline;
     text-align: center;
 }
 
 a:link, a:visited {
-    background-color: black;
+    background-color: rgb(66, 66, 66);
     color: blanchedalmond;
     padding: 5px 112px;
     text-align: center;
@@ -33,11 +33,19 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: rgb(110, 3, 3);
     border-radius: 5px;
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
   }
 
+  @keyframes background-color {
+    100% {
+      background-color: rgb(241, 64, 64);
+    }
+  }
   h1{
     text-shadow: 2px 2px black;
-    margin-top: 150px;
+    margin-top: 180px;
     color:rgb(143, 1, 1);
     font-size: 100px;
     text-align: center;
