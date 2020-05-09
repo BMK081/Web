@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700&display=swap');
+
 
 
 body{
@@ -14,7 +14,7 @@ body{
 
 
 header{
-  background: rgb(66, 63, 63);
+  background: rgb(70, 67, 67);
 }
 
 header::after{
@@ -54,7 +54,7 @@ nav a{
 }
 
 nav a:hover{
-color: blanchedalmond;  
+color: whitesmoke;  
 }
 
 nav a::before{
@@ -76,6 +76,7 @@ nav a:hover::before{
   width: 100%;
 }
 
+
 @media(max-width:568px){
   .navbar-nav{display:none}
 }
@@ -83,11 +84,10 @@ nav a:hover::before{
 @media(min-width:568px){
 }
 
-
   h1{
-    text-shadow: 2px 2px rgb(241, 64, 64);
+    text-shadow: 2px 3px rgb(241, 64, 64);
     margin-top: 20px;
-    color:rgb(75, 73, 73);
+    color:rgb(70, 67, 67);
     font-size: 100px;
     text-align: center;
   }
